@@ -10,10 +10,15 @@ class App extends Component {
   }
 
 
-  //Your code here:
 
+  componentDidMount() {
+    console.log("Mounted")
+    this.handleAddTimer();
+  }
 
-
+  componentWillUnmount() {
+    
+  }
 
 
 
