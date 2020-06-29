@@ -9,16 +9,11 @@ class App extends Component {
     timerIDs: []
   }
 
-
-  //Your code here:
-
-
-
-
-
-
-
-
+  // Your code here:
+  // Note: When writing lifecycle methods, avoid using arrow functions
+  componentDidMount() {
+    this.handleAddTimer()
+  }
 
   // No need to modify anything in render or the class methods below
   // Unless, of course, you're curious about how it all works
